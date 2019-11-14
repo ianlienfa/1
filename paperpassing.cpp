@@ -7,7 +7,6 @@ PaperPassing::PaperPassing()
 
 string PaperPassing::solve(string s)
 {
-    int s;
     vector<int> read_in_num = stringtoVectorInt(s);
     int iterator = 0;       //iterator helps point to the numbers in the vector
     int N = read_in_num[iterator];    //gets the first number of the vector, to know how large the pass array should be
