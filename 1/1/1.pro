@@ -16,11 +16,27 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    add1.cpp \
+    building.cpp \
+    data.cpp \
+    judge.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    mymath.cpp \
+    paperpassing.cpp \
+    prime.cpp \
+    problemset.cpp
 
 HEADERS += \
-    mainwindow.h
+    add1.h \
+    building.h \
+    data.h \
+    judge.h \
+    mainwindow.h \
+    mymath.h \
+    paperpassing.h \
+    prime.h \
+    problemset.h
 
 FORMS += \
     mainwindow.ui
